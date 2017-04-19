@@ -64,6 +64,9 @@
                 flex: 1;
                 padding: 15px;
             }
+            .content header {
+                font-size: 1.25em;
+            }
             .interests header {
                 font-size: 1.25em;
             }
@@ -89,7 +92,7 @@
                     <img src="pho.jpg">
                 </div>
                 <div class = "content">
-                    <h>Thanh David Nguyen</h1>
+                    <header>Thanh David Nguyen</header>
                     <p>Student at Operation Spark</p>
                     <section class = "interest">
                         <header>Interests</header>
@@ -111,6 +114,8 @@
             </main>
         </div>
         <script>
+            var myVariable = document.querySelector('h1');
+            console.log(myVariable);
             alert("WELCOME!");
         </script>
     </body>
