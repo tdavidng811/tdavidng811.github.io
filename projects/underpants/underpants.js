@@ -26,8 +26,7 @@ window._ = {};
 *   _.identity({a: "b"}) === {a: "b"}
 */
 _.identity = function(anything) {
-   
-    return anything;
+   return anything;
 }
 
 /** _.typeOf()
@@ -69,9 +68,11 @@ _.typeOf = function(anything) {
         case 'object':
             if (Array.isArray(anything)) {
                 return 'array';
-            } else if ( anything === null) {
+            } 
+            else if ( anything === null) {
                 return 'null';
-            } else {
+            } 
+            else {
                 return 'object';
             }
             break;
