@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="bower_components/lodash/lodash.min.js"></script>
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -10,22 +11,38 @@
         <script type="text/javascript" src="js/lib/spin.min.js"></script>
         <script type="text/javascript" src="js/view/pacifier.js"></script>
         <script type="text/javascript" src="js/products.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+        <link rel="stylesheet" href="styles/styles.css">
+        
         <title>Product Project</title>
     </head>
     <body>
         <div id="container" class="container">
             <nav>
-                <h1>Product Project</h1>
+                <h1><a href="../../index.html">Product Project</a></h1>
+                <!--<form>Search For Your Product Here!-->
+                    Search For Your Product Here!
+                    <input type = 'text' placeholder = 'Hit ENTER to Search!' id = 'searchby-input' />
+                
+                
+                    <h2 id = 'search-by'>Search By</h2>
+                    <ul id = 'filtered-by'>
+                    
+                    </ul>
+                <!--</form>-->
             </nav>
             <main>
                 
             </main>
             
         </div>
+        <!--
         <script>
+        /*global $ _ opspark*/ 
             $(function () {
                 window.opspark.notes.show();
             });
         </script>
+        -->
     </body>
 </html>

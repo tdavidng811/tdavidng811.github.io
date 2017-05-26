@@ -1,0 +1,112 @@
+ nav {  
+     font-size: 25px;
+     font-style: italic;
+     font-family: Georgia;
+     text-align: center;
+     border-radius: 10px;
+     background-color: blue;
+     margin-bottom: 20px;
+     border: 2px solid #cc66ff;
+     color: white;
+     
+ }
+ .product-container img {
+     border-radius: 20px;
+ }
+.product-container {
+    font-size: 15px;
+    font-style: italic;
+    font-family: Georgia;
+    text-align: center;
+    border-radius: 10px;
+    background-color: blue; 
+    color: white;
+    border: 2px solid #cc66ff;
+    position: relative;
+ }    
+.prices {
+    font-size: 50px;
+    color: #e6b3ff;
+    padding-top: 20px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    
+}
+body {
+    background-color: #ff00ff;
+}
+
+#search-by {
+    cursor: pointer;
+}
+
+
+#filtered-by {
+    display: none;
+    list-style-type: none;
+    cursor: pointer;
+    
+    
+}
+#searchby-input {
+    color: black;
+}
+
+#pop-up {
+    display: none;
+    position: fixed;
+    color: white;
+    background: blue;
+    border-radius: 10px;
+    border: 10px solid #ff00ff;
+    top: 50px;
+    left: 100px;
+    right: 100px;
+    bottom: 50px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+#pop-up ul {
+  list-style-type: none;
+  margin-left: 0;
+ 
+}
+
+
+#pop-up img {
+    position: relative;
+    max-width: 200px;
+    max-height: 300px;
+    border-radius: 20px;
+    padding-top: 30px;
+   
+}
+
+.stock {
+    padding: 20px;
+    color: #ff00ff;
+    text-shadow: 20px black;
+    font-size: 2em;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.stock span {
+    font-size: 3em;
+    padding-left: 20px;
+}
+#searchby-input {
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+#search-by:hover {
+    color: #ff00ff;
+}
+
+#filtered-by li:hover {
+    color: #ff00ff;
+}
+
+
